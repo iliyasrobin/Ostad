@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
 
       } else {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-          content: Text("Please enter both name and number."),
+          content: Text("Please enter name and number."),
         ));
       }
     });
