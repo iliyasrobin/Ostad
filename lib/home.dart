@@ -12,16 +12,14 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Employee"),
-        centerTitle: true,
-        backgroundColor: Colors.blue,
-        foregroundColor: Colors.white,
+        title: Text("Add Employee"),
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(20),
+        padding: const EdgeInsets.all(15),
         child: Column(
           children: [
-            Text("Add Employee"),
             TextFormField(
               decoration: InputDecoration(
                 border: UnderlineInputBorder(),
